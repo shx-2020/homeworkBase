@@ -63,27 +63,19 @@
         android:layout_marginTop="300dp"
         android:layout_marginEnd="36dp"
         android:layout_marginRight="36dp"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
 
 
-        <ImageButton
-            android:id="@+id/agree_button"
-            android:layout_width="30dip"
-            android:layout_height="30dip"
-            android:layout_gravity="center_vertical"
-            tools:ignore="MissingConstraints" />
-
-        <TextView
-            android:id="@+id/agreement"
-            android:layout_width="wrap_content"
+        <CheckBox
+            android:id="@+id/i_agree"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:clickable="true"
+            android:layout_width="wrap_content"
             android:text="同意用户协议"
-            tools:ignore="MissingConstraints" />
+            android:gravity="center"
+            />
     </LinearLayout>
 
     <Button
